@@ -1,0 +1,306 @@
+/* CSS DOCUMENT */
+html { 
+    background: url(../images/wooddesktop.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+header h1{
+    font-family: impact; 
+    font-size: 60px;
+    margin-left: 20px;
+}
+.headerwrapper{
+    clear: both;
+    width: 100%;
+    padding: 40px 10px;
+    background: rgba(56, 55, 55, 0.5);
+    margin: 10px;
+}
+.headerwrapper a:hover{
+    color: rgb(235, 212, 212);
+}
+header nav{
+    float: right;
+    margin-right: 20px; 
+    margin-top: -10px;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+header nav ul li a {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+body{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Helvetica;
+    color: rgb(221, 221, 221); 
+}
+
+.displaypic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.division-line{
+    width: 300px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+}
+.profilebox {
+    width: 350px;
+    height: 450px;
+    background-color: #848484;
+    padding: 20px;
+    text-align: center;
+    background: rgba(56, 55, 55, 0.5);
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    margin-top: 618px;
+}
+.profilebox2 {
+    width: 350px;
+    height: 450px;
+    background-color: #848484;
+    padding: 20px;
+    text-align: center;
+    background: rgba(56, 55, 55, 0.5);
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    margin-left: 60px;
+}
+.profilebox3 {
+    width: 350px;
+    height: 450px;
+    background-color: #848484;
+    padding: 20px;
+    text-align: center;
+    background: rgba(56, 55, 55, 0.5);
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+
+.row1 {
+    float: left;
+    width: 49%;
+}
+.background {
+    clear: both;
+    width: 100%;           
+    background: rgba(56, 55, 55, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+.row2 {
+    float: right;
+    width: 49%;
+}
+
+.hyperlink a:link {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+.hyperlink a:visited {
+    text-decoration: underline;
+    color: white; 
+    font-weight: bold;
+}
+.hyperlink a:hover{
+    text-decoration: underline;
+    color: rgb(235, 212, 212);
+    font-weight: bold;
+}
+.hyperlink a:active {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+.draft {
+   height: 200px;
+   width: 325px;
+   margin: 10px;
+   float: left;
+   padding: 10px;
+}
+.arrow {
+    height: 55px;
+    width: 80px;
+    margin-top: 90px;
+    float: left;
+}
+.draft2 {
+    height: 200px;
+    width: 325px;
+    padding: 10px;
+    margin-top: 10px;
+    float: left;
+ }
+ .arrow2 {
+     height: 55px;
+     width: 80px;
+     float: left;
+     margin-top: 90px;
+     margin-right: -40px;
+ }
+ .final {
+    height: 200px;
+    width: 325px;
+    float: right;
+    padding: 10px;
+    margin-right: 130px;
+    margin-top: 10px;
+ }
+ .draftp {
+     margin-top: 275px;
+ }
+.codeacademy {
+    height: 200px;
+    width: 50%;
+}
+
+
+ .footerwrapper {
+    clear: both;
+    width: 100%;
+    background-color: rgba(56, 55, 55, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+.footerwrapper a:hover{
+   color: rgb(235, 212, 212);
+}
+
+.twitter {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 5px;
+  }
+
+  .fb {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 5px;
+  }
+
+  .insta {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 5px;
+  }
+
+  .utube {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 5px;
+  }
+
+  .social h3 {
+    margin: 20px 0 0 30px;
+    font: 24px sans-serif;
+    color: white;
+    font-weight:bold; 
+  }
+footer ul{
+    float: left;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: -200px;
+}
+footer ul li {
+    display: block;
+    list-style: none;
+}
+footer ul li a {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+ul h3{
+    margin: 20px 0 0 30px;
+    font: 24px sans-serif;
+    color: white;
+    font-weight:bold; 
+}
+
+#formwrapper {
+    margin-left: 300px;
+    margin-top: -20px;
+}
+form {
+    width: 500px;
+    margin: 0px;
+}
+label{
+    display: block;
+    margin: 5px 0 5px 20px; 
+    font: 12px sans-serif; 
+    color: #888;
+}
+input{
+    width: 250px;
+    margin: 0 0 0 20px;
+}
+textarea {
+    width: 250px;
+    margin: 0 0 0 20px;
+}
+fieldset { 
+    border: none;
+    padding: 0 0 20px 0;
+}
+.label1 {
+    margin-top: 10px;
+}
+.button{
+    width: 125px;
+}
+form h3 {
+    margin: 20px 0 0 30px;
+    font: 24px sans-serif;
+    color: white;
+    font-weight:bold; 
+}
+
+
+#map {
+    width: 60%;
+    height: 200px;
+    background-color: grey;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: -250px;
+  }
+
+  .cssval {
+      height: 250px;
+      width: 40%;
+  }
+  .htmlval {
+      height: 250px;
+      width: 40%;
+  }
+  .video{
+      float: center; 
+      margin-left: -100px;
+  }
