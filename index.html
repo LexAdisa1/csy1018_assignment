@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link href="css/master.css" type="text/css" rel="stylesheet">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Team Web Development Site</title>
+
+</head>
+<header>
+        <div class="headerwrapper">
+            <h1>Web Development jTeam Site</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">My Team</a></li>
+                <li><a href="glossary.html">Glossary</a></li>
+                <li><a href="jobsavailable.html">Jobs Available</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="mgpinui.html">MGP to UI</a></li>
+                <li><a href="myexperience.html">My Experience</a></li>           
+            </ul>
+        </nav>
+        </div>
+</header>
+
+<body> 
+<video width="800" height="600" class="video" controls >
+<source src="teamvideo.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<div class="profilebox">
+    <img src="images/me.jpg" class="displaypic" alt="picture of me">
+    <h1>Me</h1>
+    <h5>BSc Business Computing</h5>
+    <div class="division-line"></div>
+    <p>
+       My name's Alex and im a student at Northampton Uni. The pathway I chose on my course is Web Development. 
+       After Uni I hope to do a years placement then start up a web development business. 
+    </p>
+   
+</div>
+
+<div class="profilebox2">
+        <img src="images/godwin.jpg" class="displaypic" alt="picture of Godwin">
+   <h1>Godwin</h1>
+   <h5>BSc Computing</h5>
+   <div class="division-line"></div>
+   <p>
+       Hi, my name is Godwin and i'm a second year student at Northampton University, studying BSc in computing. 
+       This is the general course that covers a bit of all pathways.
+   </p>
+   
+</div>
+
+<div class="profilebox3">
+    <img src="images/damian.jpg" class="displaypic" alt="picture of Damian">
+<h1>Damian</h1>
+<h5>HND Computer Systems Engineering</h5>
+<div class="division-line"></div>
+<p>
+   Hi, my name is Damian and i'm a second year student at The University of Northampton. This course focuses primarily 
+   on computer science and micro-processors.
+</p>
+</div>
+
+
+<footer> 
+        <div class="footerwrapper"> 
+        <div class="social">
+        <h3>Social Media:</h3>
+        <a href="https://twitter.com/UniNorthants?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images/twitter.png" class="twitter" alt="Link to Northampton twitter page"></a>
+        <a href="https://facebook.com/UniversityofNorthampton/"><img src="images/facebook.png" class="fb" alt="Link to Northampton facebook page"></a>
+        <a href="https://instagram.com/northampton_su/"><img src="images/insta.png" class="insta" alt="Link to Northampton instagram page"></a>
+        <a href="https://youtube.com/user/UniNorthampton"><img src="images/utube.png" class="utube" alt="Link to Northampton youtube page"></a>
+            
+                
+            <ul>
+                <h3>Menu:</h3>
+                 <li><a href="index.html">My Team</a></li>
+                 <li><a href="glossary.html">Glossary</a></li>
+                 <li><a href="jobsavailable.html">Jobs Available</a></li>
+                 <li><a href="resources.html">Resources</a></li>
+                 <li><a href="mgpinui.html">MGP to UI</a></li>
+                 <li><a href="myexperience.html">My Experience</a></li>           
+            </ul>
+            
+        
+        <div id="formwrapper">
+            <form>
+                <fieldset>
+                <h3>Contact Me:</h3>
+                    <label class="label1" for="name">Name:</label>
+                    <input name="name">
+                    <label for="email">Email:</label>
+                    <input name="email">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments"></textarea>
+                </fieldset>
+                <fieldset>
+                    <input class="button" type="submit" value="Send Email">
+                    <input class="button" type="reset" value="Reset Email">
+                </fieldset>
+            </form>
+                            
+        <div id="map">
+            <script>
+                function initMap() {
+                var uluru = {lat: 52.251250, lng: -0.891776};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 10,
+                  center: uluru
+                });
+                var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+                });
+              }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbzZILKYFPMfLS5tp97z_f64Qt8Ss5yCA&callback=initMap">
+            </script>
+        
+        
+        </div>
+        </div>
+        </div>
+        </div>
+                
+</footer>
+</body>
+</html>
